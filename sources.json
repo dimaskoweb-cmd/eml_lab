@@ -1,0 +1,46 @@
+{
+  "_note": "Источники проверены вручную (реальные RSS/Telegram-каналы, сентябрь 2026). enabled=false отключает источник без удаления. Правь этот файл, не Python-код, чтобы включать/выключать источники.",
+
+  "rss": [
+    {"id": "infragreen_main",        "label": "ИНФРАГРИН — главная лента",              "url": "https://infragreen.ru/rss/", "lang": "ru", "enabled": true},
+    {"id": "infragreen_circular",    "label": "ИНФРАГРИН — Циркулярность",              "url": "https://infragreen.ru/tag/tsirkuliarnaia-ekonomika/rss/", "lang": "ru", "enabled": true},
+    {"id": "infragreen_ratings",     "label": "ИНФРАГРИН — Оценка/рейтинги",             "url": "https://infragreen.ru/tag/rieitinghi/rss/", "lang": "ru", "enabled": true},
+    {"id": "infragreen_finance",     "label": "ИНФРАГРИН — ESG-финансы/инвестиции",      "url": "https://infragreen.ru/tag/finansy-rynki/rss/", "lang": "ru", "enabled": true},
+    {"id": "infragreen_tech",        "label": "ИНФРАГРИН — Технологии",                  "url": "https://infragreen.ru/tag/tiekhnologhii-novatsii/rss/", "lang": "ru", "enabled": true},
+    {"id": "infragreen_territories", "label": "ИНФРАГРИН — Территории (география)",      "url": "https://infragreen.ru/tag/tierritorii/rss/", "lang": "ru", "enabled": true},
+    {"id": "infragreen_regulation",  "label": "ИНФРАГРИН — Регулирование",               "url": "https://infragreen.ru/tag/gosudarstvo/rss/", "lang": "ru", "enabled": true},
+
+    {"id": "vedomosti_industry",     "label": "Ведомости — Промышленность",              "url": "https://www.vedomosti.ru/rss/rubric/business/industry.xml", "lang": "ru", "enabled": true},
+    {"id": "vedomosti_energy",       "label": "Ведомости — ТЭК",                         "url": "https://www.vedomosti.ru/rss/rubric/business/energy.xml", "lang": "ru", "enabled": true},
+    {"id": "vedomosti_investments",  "label": "Ведомости — Госинвестиции и проекты",     "url": "https://www.vedomosti.ru/rss/rubric/economics/state_investments.xml", "lang": "ru", "enabled": true},
+    {"id": "vedomosti_hitech",       "label": "Ведомости — Наукоемкие технологии",       "url": "https://www.vedomosti.ru/rss/rubric/technology/hi_tech.xml", "lang": "ru", "enabled": true},
+
+    {"id": "rpn_circular",           "label": "Recycling Product News — Circular Economy", "url": "https://www.recyclingproductnews.com/rss/circular-economy-77.xml", "lang": "en", "enabled": true},
+    {"id": "rpn_metals",             "label": "Recycling Product News — Metals",          "url": "https://www.recyclingproductnews.com/rss/metals-22.xml", "lang": "en", "enabled": true},
+    {"id": "rpn_plastics",           "label": "Recycling Product News — Plastics",        "url": "https://www.recyclingproductnews.com/rss/plastics-30.xml", "lang": "en", "enabled": true},
+    {"id": "rpn_industry_news",      "label": "Recycling Product News — Industry News",   "url": "https://www.recyclingproductnews.com/rss/industry-news-14.xml", "lang": "en", "enabled": true},
+
+    {"id": "government_docs",        "label": "Правительство России — Документы (решения, распоряжения)", "url": "http://government.ru/docs/rss/", "lang": "ru", "enabled": true},
+    {"id": "government_dep_news",    "label": "Правительство России — По министерствам и ведомствам",     "url": "http://government.ru/dep_news/rss/", "lang": "ru", "enabled": true},
+    {"id": "government_activities",  "label": "Правительство России — Законопроектная деятельность",       "url": "http://government.ru/activities/rss/", "lang": "ru", "enabled": true}
+  ],
+
+  "telegram": [
+    {"id": "reo_ru",       "label": "РЭО (Российский экологический оператор, офиц.)", "username": "reo_ru", "enabled": true},
+    {"id": "urzvt",        "label": "Устойчивое Развитие - ESG - экология",           "username": "urzvt", "enabled": true},
+    {"id": "greenpercent", "label": "ИНФРАГРИН (Telegram)",                            "username": "greenpercent", "enabled": true}
+  ],
+
+  "google_news": [
+    {"id": "gn_ezc_ru",               "label": "Google News: экономика замкнутого цикла",        "query": "экономика замкнутого цикла", "lang": "ru", "enabled": true},
+    {"id": "gn_investments_ru",       "label": "Google News: инвестиции в переработку отходов",  "query": "инвестиции в переработку отходов", "lang": "ru", "enabled": true},
+    {"id": "gn_rating_ru",            "label": "Google News: рейтинг циркулярной экономики",     "query": "рейтинг циркулярной экономики регионов", "lang": "ru", "enabled": true},
+    {"id": "gn_circular_en",          "label": "Google News: circular economy investment",       "query": "circular economy investment", "lang": "en", "enabled": true},
+    {"id": "gn_circular_tech_en",     "label": "Google News: circular economy technology",       "query": "circular economy technology ranking", "lang": "en", "enabled": true},
+
+    {"id": "gn_ash_slag_ru",          "label": "Google News: золошлаковые отходы утилизация",    "query": "золошлаковые отходы утилизация", "lang": "ru", "enabled": true},
+    {"id": "gn_industrial_waste_ru",  "label": "Google News: промышленные отходы вторичное сырье", "query": "промышленные отходы вторичное сырье", "lang": "ru", "enabled": true},
+    {"id": "gn_technogenic_ru",       "label": "Google News: техногенные месторождения",         "query": "техногенные месторождения", "lang": "ru", "enabled": true},
+    {"id": "gn_rop_industry_ru",      "label": "Google News: РОП для промышленности",            "query": "расширенная ответственность производителя промышленность", "lang": "ru", "enabled": true}
+  ]
+}
